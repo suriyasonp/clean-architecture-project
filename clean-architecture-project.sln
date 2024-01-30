@@ -7,27 +7,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D24F928C-743
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{B2A8B82F-ABC3-4D0E-9E18-0C9E2E4BA8E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Domain", "src\core\Travel.Domain\Travel.Domain.csproj", "{75628766-AED2-466A-8DCE-9C5D57620F1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travel.Domain", "src\core\Travel.Domain\Travel.Domain.csproj", "{75628766-AED2-466A-8DCE-9C5D57620F1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Application", "src\core\Travel.Application\Travel.Application.csproj", "{31285AC6-E24E-4C7A-84F9-F7945C6C7D7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travel.Application", "src\core\Travel.Application\Travel.Application.csproj", "{31285AC6-E24E-4C7A-84F9-F7945C6C7D7E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{77290CDA-BAEF-4267-8BC4-36613EA07A42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Data", "src\infrastructure\Travel.Data\Travel.Data.csproj", "{8EE4C530-526E-4926-B4AF-2E9C2E339341}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travel.Data", "src\infrastructure\Travel.Data\Travel.Data.csproj", "{8EE4C530-526E-4926-B4AF-2E9C2E339341}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Shared", "src\infrastructure\Travel.Shared\Travel.Shared.csproj", "{75509F90-30DE-4781-976D-4C6931D30DE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travel.Shared", "src\infrastructure\Travel.Shared\Travel.Shared.csproj", "{75509F90-30DE-4781-976D-4C6931D30DE5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentation", "{AE80AD8E-9B59-498D-A8EF-CA0B94059ED1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.WebApi", "src\presentation\Travel.WebApi\Travel.WebApi.csproj", "{D8D94217-A3D3-4EE0-8779-256BD1977EED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.WebApi", "src\presentation\Travel.WebApi\Travel.WebApi\Travel.WebApi.csproj", "{D5575E1E-6C03-4465-9BCA-DC038D5F9B7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{75628766-AED2-466A-8DCE-9C5D57620F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -46,10 +43,13 @@ Global
 		{75509F90-30DE-4781-976D-4C6931D30DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75509F90-30DE-4781-976D-4C6931D30DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75509F90-30DE-4781-976D-4C6931D30DE5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D8D94217-A3D3-4EE0-8779-256BD1977EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D8D94217-A3D3-4EE0-8779-256BD1977EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D8D94217-A3D3-4EE0-8779-256BD1977EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D8D94217-A3D3-4EE0-8779-256BD1977EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5575E1E-6C03-4465-9BCA-DC038D5F9B7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5575E1E-6C03-4465-9BCA-DC038D5F9B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5575E1E-6C03-4465-9BCA-DC038D5F9B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5575E1E-6C03-4465-9BCA-DC038D5F9B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B2A8B82F-ABC3-4D0E-9E18-0C9E2E4BA8E1} = {D24F928C-743E-4A0E-B9F7-AE3B749D5F16}
@@ -59,6 +59,6 @@ Global
 		{8EE4C530-526E-4926-B4AF-2E9C2E339341} = {77290CDA-BAEF-4267-8BC4-36613EA07A42}
 		{75509F90-30DE-4781-976D-4C6931D30DE5} = {77290CDA-BAEF-4267-8BC4-36613EA07A42}
 		{AE80AD8E-9B59-498D-A8EF-CA0B94059ED1} = {D24F928C-743E-4A0E-B9F7-AE3B749D5F16}
-		{D8D94217-A3D3-4EE0-8779-256BD1977EED} = {AE80AD8E-9B59-498D-A8EF-CA0B94059ED1}
+		{D5575E1E-6C03-4465-9BCA-DC038D5F9B7C} = {AE80AD8E-9B59-498D-A8EF-CA0B94059ED1}
 	EndGlobalSection
 EndGlobal
