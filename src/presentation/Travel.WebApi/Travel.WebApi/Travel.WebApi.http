@@ -1,4 +1,4 @@
-@Travel.WebApi_HostAddress = http://localhost:5161
+@Travel.WebApi_HostAddress = http://localhost:5115
 
 GET {{Travel.WebApi_HostAddress}}/weatherforecast/
 Accept: application/json
